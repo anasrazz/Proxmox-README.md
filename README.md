@@ -46,9 +46,9 @@ Ce projet consiste à concevoir et mettre en place une infrastructure de virtual
       VLAN 10       VLAN 20       VLAN 30
   192.168.10.x   192.168.20.x  192.168.30.x
          │             │             │
-   ┌─────▼────┐  ┌─────▼────┐  ┌────▼─────┐
+   ┌─────▼────┐  ┌─────▼────┐  ┌────▼──────┐
    │  Ubuntu  │  │ Windows  │  │Supervision│
-   │  NODE 2  │  │  NODE 3  │  │  (LXC)   │
+   │  NODE 2  │  │  NODE 3  │  │  (LXC)    │
    │ Stockage │  │  Client  │  │  Grafana  │
    │  Samba   │  │  Tests   │  │Prometheus │
    └──────────┘  └──────────┘  └───────────┘
@@ -60,8 +60,6 @@ Le portail de gestion de notre infrastructure est divisé en deux parties pour u
     * 🔗 [Lien vers le dépôt Back-End](https://github.com/azouitane/platform_cloud.git)
 * **Front-End (Virtacore UI)** : Interface utilisateur moderne pour la supervision et le contrôle des VMs.
     * 🔗 [Lien vers le dépôt Front-End](https://github.com/azouitane/virtacore-ui.git)
-
----
 ---
 
 ## 🛠️ Technologies Utilisées
