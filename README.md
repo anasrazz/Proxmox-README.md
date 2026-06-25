@@ -53,7 +53,15 @@ Ce projet consiste à concevoir et mettre en place une infrastructure de virtual
    │  Samba   │  │  Tests   │  │Prometheus │
    └──────────┘  └──────────┘  └───────────┘
 ```
+## 💻 Développements Spécifiques (Back-End & Front-End)
+Le portail de gestion de notre infrastructure est divisé en deux parties pour une meilleure scalabilité :
 
+* **Back-End (Platform Cloud)** : Géré par Ahmed ZOUITANE, il traite les requêtes API vers Proxmox et automatise les tâches complexes.
+    * 🔗 [Lien vers le dépôt Back-End](https://github.com/azouitane/platform_cloud.git)
+* **Front-End (Virtacore UI)** : Interface utilisateur moderne pour la supervision et le contrôle des VMs.
+    * 🔗 [Lien vers le dépôt Front-End](https://github.com/azouitane/virtacore-ui.git)
+
+---
 ---
 
 ## 🛠️ Technologies Utilisées
@@ -141,26 +149,17 @@ Accès Linux   : smb://192.168.10.10/Stockage-PFE
 - Scripts Bash (backup automatique)
 - Ansible (déploiement automatisé)
 - Portail Web Flask
-### 💻 Développements Spécifiques (Back-End & Front-End)
-Le portail de gestion de notre infrastructure est divisé en deux parties pour une meilleure scalabilité :
-
-* **Back-End (Platform Cloud)** : Géré par Ahmed ZOUITANE, il traite les requêtes API vers Proxmox et automatise les tâches complexes.
-    * 🔗 [Lien vers le dépôt Back-End](https://github.com/azouitane/platform_cloud.git)
-* **Front-End (Virtacore UI)** : Interface utilisateur moderne pour la supervision et le contrôle des VMs.
-    * 🔗 [Lien vers le dépôt Front-End](https://github.com/azouitane/virtacore-ui.git)
-
 ---
 
-## 📅 Planning Prévisionnel
+## 📅 Planning Prévisionnel (Mise à jour)
 
 | Phase | Titre | Dates | Status |
-|-------|-------|-------|--------|
-| 1 | Analyse + Conception | 01 - 10 Juin | ✅ Terminé |
-| 2 | Installation + Config | 11 - 25 Juin | 🔄 En cours |
-| 3 | Déploiement Services | 26 Juin - 10 Juil | ⏳ À faire |
-| 4 | Tests + Validation | 11 - 20 Juil | ⏳ À faire |
-| 5 | Documentation + Soutenance | 21 Juil+ | ⏳ À faire |
-
+| :--- | :--- | :--- | :--- |
+| Phase 1 | Analyse + Conception | 01 - 10 Juin | ✅ Terminé |
+| Phase 2 | Installation + Config | 11 - 25 Juin | ✅ Terminé |
+| Phase 3 | Déploiement Services | 26 Juin - 10 Juil | ✅ Terminé |
+| Phase 4 | Tests + Validation | 11 - 20 Juil | ✅ Terminé |
+| Phase 5 | Documentation + Soutenance | 21 Juil+ | ✅ Terminé |
 ---
 
 ## 📝 Livrables
@@ -169,14 +168,14 @@ Le portail de gestion de notre infrastructure est divisé en deux parties pour u
 ✅ Fiche de cadrage
 ✅ Cahier des charges
 ✅ Dépôt GitHub configuré
-🔄 Infrastructure Proxmox (en cours)
-🔄 pfSense configuré (en cours)
-⏳ Ubuntu Stockage
-⏳ Supervision Grafana
-⏳ Scripts automatisation
-⏳ Portail Web
-⏳ Documentation technique
-⏳ Rapport final PFE
+✅ Infrastructure Proxmox (en cours)
+✅ pfSense configuré (en cours)
+✅ Ubuntu Stockage
+✅ Supervision Grafana
+✅ Scripts automatisation
+✅ Portail Web
+✅ Documentation technique
+✅ Rapport final PFE
 ⏳ Présentation soutenance
 ```
 
