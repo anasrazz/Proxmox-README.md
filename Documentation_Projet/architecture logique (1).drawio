@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram name="Architecture Logique" id="logique-1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1A2A5E;" value="ARCHITECTURE LOGIQUE" vertex="1">
+          <mxGeometry height="30" width="400" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="title2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#1A2A5E;" value="INFRASTRUCTURE DE VIRTUALISATION AVEC PROXMOX VE" vertex="1">
+          <mxGeometry height="20" width="600" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="container" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F7FA;strokeColor=#1A2A5E;arcSize=4;verticalAlign=top;" value="" vertex="1">
+          <mxGeometry height="540" width="1480" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="users_label" parent="1" style="text;html=1;align=center;fontStyle=1;fontSize=12;fontColor=#1A2A5E;" value="UTILISATEURS" vertex="1">
+          <mxGeometry height="20" width="140" x="60" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="users_icon" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=40;" value="👥" vertex="1">
+          <mxGeometry height="60" width="100" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_label" parent="1" style="text;html=1;align=center;fontStyle=1;fontSize=12;fontColor=#1A2A5E;" value="LAN / ACCÈS" vertex="1">
+          <mxGeometry height="20" width="120" x="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="lan_box" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D0D6DE;strokeColor=#333333;fontSize=11;" value="LAN" vertex="1">
+          <mxGeometry height="40" width="90" x="255" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fw_box" parent="1" style="shape=mxgraph.networks.firewall;html=1;fillColor=#333333;strokeColor=#333333;fontSize=11;verticalLabelPosition=bottom;verticalAlign=top;" value="FIREWALL" vertex="1">
+          <mxGeometry height="50" width="60" x="410" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cluster_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;verticalAlign=top;fontStyle=1;fontSize=13;fontColor=#1A2A5E;align=center;" value="PROXMOX VE CLUSTER" vertex="1">
+          <mxGeometry height="220" width="430" x="540" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="node1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;fontSize=11;fontStyle=1;verticalAlign=top;align=center;" value="PROXMOX VE&#xa;NODE 1" vertex="1">
+          <mxGeometry height="170" width="120" x="555" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="node1_icon" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=30;" value="🖥" vertex="1">
+          <mxGeometry height="40" width="60" x="585" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="node1_px" parent="1" style="text;html=1;align=center;fontStyle=1;fontSize=10;fontColor=#E57200;" value="PROXMOX" vertex="1">
+          <mxGeometry height="20" width="120" x="555" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="node2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;fontSize=11;fontStyle=1;verticalAlign=top;align=center;" value="PROXMOX VE&#xa;NODE 2" vertex="1">
+          <mxGeometry height="170" width="120" x="690" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="node2_icon" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=30;" value="🖥" vertex="1">
+          <mxGeometry height="40" width="60" x="720" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="node2_px" parent="1" style="text;html=1;align=center;fontStyle=1;fontSize=10;fontColor=#E57200;" value="PROXMOX" vertex="1">
+          <mxGeometry height="20" width="120" x="690" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="storage_label" parent="1" style="text;html=1;align=center;fontStyle=1;fontSize=12;fontColor=#1A2A5E;" value="STOCKAGE PARTAGÉ" vertex="1">
+          <mxGeometry height="20" width="140" x="1000" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="storage_icon" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=40;" value="🗄" vertex="1">
+          <mxGeometry height="60" width="100" x="1020" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="storage_sub" parent="1" style="text;html=1;align=center;fontSize=11;fontColor=#333333;" value="NFS / iSCSI / Ceph" vertex="1">
+          <mxGeometry height="20" width="140" x="1000" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vnet_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#1A2A5E;align=center;" value="RÉSEAUX VIRTUELS" vertex="1">
+          <mxGeometry height="200" width="260" x="1220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vnet1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;fontSize=11;" value="VM NETWORK (LAN)" vertex="1">
+          <mxGeometry height="30" width="220" x="1240" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="vnet2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;fontSize=11;" value="STORAGE NETWORK" vertex="1">
+          <mxGeometry height="30" width="220" x="1240" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vnet3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;fontSize=11;" value="MANAGEMENT NETWORK" vertex="1">
+          <mxGeometry height="30" width="220" x="1240" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="vnet4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;fontSize=11;" value="BACKUP NETWORK" vertex="1">
+          <mxGeometry height="30" width="220" x="1240" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vm_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#1A2A5E;verticalAlign=top;fontStyle=1;fontSize=12;fontColor=#1A2A5E;align=center;" value="RESSOURCES VIRTUALISÉES" vertex="1">
+          <mxGeometry height="110" width="430" x="540" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="vm1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="560" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="608" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="656" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="704" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="752" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="800" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="848" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1A2A5E;strokeColor=#1A2A5E;fontColor=#FFFFFF;fontSize=10;fontStyle=1;" value="VM" vertex="1">
+          <mxGeometry height="40" width="40" x="896" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="vm_dots" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;" value="..." vertex="1">
+          <mxGeometry height="40" width="30" x="940" y="465" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="users_icon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=horizontal;startArrow=none;" target="lan_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="lan_box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=horizontal;startArrow=none;" target="fw_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="fw_box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=horizontal;startArrow=none;" target="cluster_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="cluster_box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=horizontal;startArrow=none;" target="storage_icon">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="storage_icon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=horizontal;startArrow=none;" target="vnet_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="cluster_box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;startArrow=none;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="lan_box">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="400" />
+              <mxPoint x="300" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="cluster_box" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vm_box">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
