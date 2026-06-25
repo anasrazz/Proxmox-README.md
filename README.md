@@ -71,7 +71,6 @@ Le portail de gestion de notre infrastructure est divisé en deux parties pour u
 | LXC | Conteneurisation |
 | pfSense | Pare-feu + Réseau |
 | Ubuntu Server | Stockage + Services |
-| Windows | Client + Tests |
 | Samba | Partage fichiers réseau |
 | Prometheus | Collecte métriques |
 | Grafana | Visualisation dashboards |
