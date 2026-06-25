@@ -72,48 +72,47 @@ sur Proxmox VE, offrant:
 | GitHub           | Versioning            |
 --------------------------------------------
 
+## 📁 Structure du Dépôt
+
+```
 pfe-proxmox/
 │
-├── 📁 scripts/
-│ ├── 📁 python/
-│ │ ├── gestion_vms.py
-│ │ ├── monitoring.py
-│ │ └── backup_api.py
-│ │
-│ ├── 📁 bash/
-│ │ ├── backup_auto.sh
-│ │ ├── setup_network.sh
-│ │ └── install_samba.sh
-│ │
-│ └── 📁 ansible/
-│ ├── deploy.yml
-│ ├── inventory.ini
-│ └── roles/
+├── scripts/
+│   ├── python/
+│   │   ├── gestion_vms.py
+│   │   ├── monitoring.py
+│   │   └── backup_api.py
+│   ├── bash/
+│   │   ├── backup_auto.sh
+│   │   ├── setup_network.sh
+│   │   └── install_samba.sh
+│   └── ansible/
+│       ├── deploy.yml
+│       └── inventory.ini
 │
-├── 📁 configs/
-│ ├── pfsense/
-│ │ ├── firewall_rules.xml
-│ │ └── vlans_config.xml
-│ │
-│ ├── samba/
-│ │ └── smb.conf
-│ │
-│ └── prometheus/
-│ └── prometheus.yml
+├── configs/
+│   ├── pfsense/
+│   │   ├── firewall_rules.xml
+│   │   └── vlans_config.xml
+│   ├── samba/
+│   │   └── smb.conf
+│   └── prometheus/
+│       └── prometheus.yml
 │
-├── 📁 portail-web/
-│ ├── app.py
-│ ├── requirements.txt
-│ └── templates/
-│ └── dashboard.html
+├── portail-web/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── templates/
+│       └── dashboard.html
 │
-├── 📁 docs/
-│ ├── cahier_des_charges.pdf
-│ ├── fiche_cadrage.pdf
-│ ├── architecture.png
-│ └── rapport_final.pdf
+├── docs/
+│   ├── cahier_des_charges.pdf
+│   ├── fiche_cadrage.pdf
+│   ├── architecture.png
+│   └── rapport_final.pdf
 │
-└── 📄 README.md
+└── README.md
+```
 
 ## 🌐 Plan Réseau
  
