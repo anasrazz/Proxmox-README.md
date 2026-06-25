@@ -11,7 +11,7 @@
 | Ahmed ZOUITANE      |     Membre     | Réseau        |
 | Mariem EL MEJJADI   |     Membre     | Cybersécurité |
 | Ghita EL BIHEL      |     Membre     | Réseau        |
-| Anas RAZZOUKI       |     Membre     | Cybersécurité |
+|  Anas RAZZOUK       |     Membre     | Cybersécurité |
 | Noureddine AGROU    |     Membre     | Cybersécurité |
 --------------------------------------------------------
 
