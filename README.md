@@ -21,15 +21,14 @@ Ce projet consiste à concevoir et mettre en place
 une infrastructure de virtualisation complète basée 
 sur Proxmox VE, offrant:
 
-- 🛡️ Sécurité réseau via pfSense
-- 💾 Stockage centralisé via Ubuntu Server
-- 📊 Supervision via Prometheus + Grafana
-- 🌐 Portail web de gestion des ressources
-- 🤖 Automatisation via Python/Bash/Ansible
+-  Sécurité réseau via pfSense
+-  Stockage centralisé via Ubuntu Server
+-  Supervision via Prometheus + Grafana
+-  Portail web de gestion des ressources
+-  Automatisation via Python/Bash/Ansible
 
 ---
 
-## 🏗️ Architecture
 ## 🏗️ Architecture
 
 ```
@@ -114,7 +113,7 @@ pfe-proxmox/
 └── README.md
 ```
 
-## 🌐 Plan Réseau
+##  Plan Réseau
  
  ------------------------------------------------------------------
 |  Node  |        VM       |    VLAN   |       IP      |    Rôle   |
