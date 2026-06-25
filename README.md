@@ -141,6 +141,13 @@ Accès Linux   : smb://192.168.10.10/Stockage-PFE
 - Scripts Bash (backup automatique)
 - Ansible (déploiement automatisé)
 - Portail Web Flask
+### 💻 Développements Spécifiques (Back-End & Front-End)
+Le portail de gestion de notre infrastructure est divisé en deux parties pour une meilleure scalabilité :
+
+* **Back-End (Platform Cloud)** : Géré par Ahmed ZOUITANE, il traite les requêtes API vers Proxmox et automatise les tâches complexes.
+    * 🔗 [Lien vers le dépôt Back-End](https://github.com/azouitane/platform_cloud.git)
+* **Front-End (Virtacore UI)** : Interface utilisateur moderne pour la supervision et le contrôle des VMs.
+    * 🔗 [Lien vers le dépôt Front-End](https://github.com/azouitane/virtacore-ui.git)
 
 ---
 
